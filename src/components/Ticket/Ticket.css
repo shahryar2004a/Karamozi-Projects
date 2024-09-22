@@ -1,0 +1,45 @@
+
+
+.container{
+    width: 50%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    
+}
+.container >h1{
+    text-align: center;
+}
+.select-container{
+    margin-top: 20px;
+
+}
+.container .select-container > select{
+    margin-top: 10px;
+
+  width: 100%;
+    padding: 10px;
+    border: 1px solid rgb(18, 170, 130);
+    border-radius: 5px;
+}
+.container > select:focus{
+    outline: none;
+}
+
+.btn{
+    width: 100px;
+    margin: auto;
+    margin-top: 20px;
+    padding: 8px;
+    border: 1px solid rgb(21, 204, 131);
+    border-radius: 5px;
+    background-color:rgb(21, 204, 131) ;
+    color: white;
+    transition: all 0.4s;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: white;
+    color: rgb(21, 204, 131);
+    border: 1px solid rgb(21, 204, 131);
+}
